@@ -22,11 +22,11 @@ Insert in the README file one of these statements, (depending of the license typ
 
 The README file will display one of these three licenses:
 
-![APM license](https://img.shields.io/badge/License-MIT-brightgreen)
+* ![APM license](https://img.shields.io/badge/License-MIT-brightgreen)
 
-![APM license](https://img.shields.io/badge/License-Apache_2.0-brightgreen)
+* ![APM license](https://img.shields.io/badge/License-Apache_2.0-brightgreen)
 
-![APM license](https://img.shields.io/badge/License-Mozilla_Public_License_2.0-brightgreen)
+* ![APM license](https://img.shields.io/badge/License-Mozilla_Public_License_2.0-brightgreen)
 
 
 #### License File in the Repository
@@ -41,21 +41,21 @@ The recommendation is that projects use [SPDX short-form license identifiers](ht
 
 Each source code created by the project SHOULD have one of these SPDX license identifier: (depending of the type of source code license allocated to the project):
 
-**for a MIT license:**
+* **for a MIT license:**
 
 ```
 # SPDX-License-Identifier: MIT
 # Copyright Contributors to the Open Manufacturing Platform
 ```
 
-**for a Apache 2.0 license:**
+* **for a Apache 2.0 license:**
 
 ```
 # SPDX-License-Identifier: Apache-2.0
 # Copyright Contributors to the Open Manufacturing Platform
 ```
 
-**for a Mozilla Public License 2.0 license:**
+* **for a Mozilla Public License 2.0 license:**
 
 ```
 # SPDX-License-Identifier: Mozilla-Public-License-2.0
@@ -64,6 +64,7 @@ Each source code created by the project SHOULD have one of these SPDX license id
 
 If the project needs to include source code / documents from a different upstream project, the recommendation is to retain those files in **unmodified form**  _**(don't add identifiers)**_.
 Also consider to:
+
 * keep these files in sync with upstream project
 * ask to the upstream project to insert the identifiers on their source code files / documents.
 

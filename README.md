@@ -36,10 +36,10 @@ The Maintainer or Chair can copy the corresponding license file from the [templa
 
 
 #### License Reference in each Source Code File
-The recommendation is that projects use [SPDX short-form license identifiers](https://spdx.dev/ids/) in all source code and documentation files that are **original to the project**.
+The recommendation is that projects SHOULD use [SPDX short-form license identifiers](https://spdx.dev/ids/) in all source code and documentation files that are **original to the project**.
 
 
-Each source code created by the project SHOULD have one of these SPDX license identifier: (depending of the type of source code license allocated to the project):
+Each source code created by the project SHOULD have one of these SPDX license identifiers: (depending of the type of source code license allocated to the project)
 
 * **for a MIT license:**
 
@@ -62,7 +62,8 @@ Each source code created by the project SHOULD have one of these SPDX license id
 # Copyright Contributors to the Open Manufacturing Platform
 ```
 
-If the project needs to include source code / documents from a different upstream project, the recommendation is to retain those files in **unmodified form**  _**(don't add identifiers)**_.
+If the project needs to include source code or documents from a different upstream project, the recommendation is to retain those files in **unmodified form**  _**(don't add identifiers)**_.
+
 Also consider to:
 
 * keep these files in sync with upstream project

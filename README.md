@@ -1,7 +1,7 @@
 ## Licenses
 This section provides a recommendation on how to communicate software or document licenses information in a project.
 
-### Software Licenses
+### Software Code Licenses
 
 Ideally, the project SHOULD communicate the software license information via three different metods:
 
@@ -68,7 +68,7 @@ Also consider to:
 * keep these files in sync with upstream project
 * ask to the upstream project to insert the identifiers on their source code files / documents.
 
-### Document Legal Statement
+### Technical Document License
 In projects where the main deliverable are technical documents, each document MUST have a legal disclaimer.
 
 The legal disclaimer to insert in each project document SHOULD be:

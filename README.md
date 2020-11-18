@@ -6,11 +6,11 @@ This section provides a recommendation on how to communicate software or documen
 Ideally, the project SHOULD communicate the software license information via three different metods:
 
 * In the README file
-* Inside of the repository with a ```License.md``` document
+* Inside of the repository with a ```License.txt``` document
 * Inside of each code file created by the group
 
 #### Statement in README File
-Insert in the README file one of these statements, (depending of the license type):
+Insert in the README file one of these statements (depending of the license type):
 
 ```
 ![APM license](https://img.shields.io/badge/License-MIT-brightgreen)
@@ -28,9 +28,17 @@ The README file will display one of these three licenses:
 
 * ![APM license](https://img.shields.io/badge/License-Mozilla_Public_License_2.0-brightgreen)
 
+In addition, it is recommended to include a plain text statement of the license in the README file, for accessibility purposes as well as enabling parsing by automated tooling. This can be done by including a "License" section with one of the following, as appropriate:
+
+* This project is licensed under the MIT license.
+
+* This project is licensed under the Apache-2.0 license.
+
+* This project is licensed under the Mozilla Public License, version 2.0 (MPL-2.0).
+
 
 #### License File in the Repository
-Insert in the repository a file called ```License.md```. 
+Insert in the repository a file called ```License.txt```. 
 
 The Maintainer or Chair can copy the corresponding license file from the [templates/license](https://github.com/OpenManufacturingPlatform/templates/tree/development/License) repository and upload it to the project repository.
 
@@ -58,7 +66,7 @@ Each source code created by the project SHOULD have one of these SPDX license id
 * **for a Mozilla Public License 2.0 license:**
 
 ```
-# SPDX-License-Identifier: Mozilla-Public-License-2.0
+# SPDX-License-Identifier: MPL-2.0
 # Copyright Contributors to the Open Manufacturing Platform
 ```
 
@@ -67,10 +75,10 @@ If the project needs to include source code or documents from a different upstre
 Also consider to:
 
 * keep these files in sync with upstream project
-* ask to the upstream project to insert the identifiers on their source code files / documents.
+* ask the upstream project to insert the identifiers on their source code files / documents.
 
 ### Technical Document License
-In projects where the main deliverable are technical documents, each document MUST have a legal disclaimer.
+In projects where the main deliverables are technical documents, each document MUST have a legal disclaimer.
 
 The legal disclaimer to insert in each project document SHOULD be:
 
